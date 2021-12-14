@@ -11,5 +11,4 @@ const I = {
   dataname: 'uri',
   datanamePar: 'email',
 };
-
 console.log(['email', 'uri', 'ext-link'].includes(I.dataname));
