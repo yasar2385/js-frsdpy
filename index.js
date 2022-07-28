@@ -15,9 +15,9 @@ console.log(['email', 'uri', 'ext-link'].includes(I.dataname));
 
 var Duplicate_Array = function (_Array, _Array2, Option) {
   try {
-    console.log('start')
+    console.log('start');
     if (!_Array) return [];
-    console.log('1111')
+    console.log('1111');
     if (!_Array2) {
       console.log('ee');
       var uniqueArray = _Array.filter(function (item, pos) {
@@ -40,4 +40,6 @@ var Duplicate_Array = function (_Array, _Array2, Option) {
 
 var arr = ['check', 'demo'];
 var arr_2 = ['check'];
-console.log(Duplicate_Array(arr, arr_2, {find:!0}));
+var arr_3 = ['demo'];
+console.log(Duplicate_Array(arr, arr_2, { find: !0 }));
+console.log(Duplicate_Array(arr, arr_3, { find: !0 }));
